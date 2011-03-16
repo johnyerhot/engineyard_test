@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 gem 'rails', '3.0.3'
-gem "rack", "1.2.2"
+gem 'rack', '1.2.2'
 gem 'mysql'
 gem 'delayed_job'
 # Bundle edge Rails instead:
