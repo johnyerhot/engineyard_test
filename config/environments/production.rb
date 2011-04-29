@@ -46,11 +46,11 @@ TestEy::Application.configure do
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners
-  config.active_support.deprecation = :notify
+    config.active_support.deprecation = :notify
     config.after_initialize do
-      ActionController.asset_host = AssetHostingWithMinimumSsl.new(
-                                                                   "http://assets.example.com",
-                                                                   "https://assets1.example.com"
-                                                                   )
-end
+      config..asset_host = AssetHostingWithMinimumSsl.new(
+                                                          "http://assets.example.com",
+                                                          "https://assets1.example.com"
+                                                          )
+    end
 end
