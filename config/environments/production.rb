@@ -1,5 +1,5 @@
 TestEy::Application.configure do
-  require 'asset_hosting_with_minimumssl'
+  require 'asset_hosting_with_minimum_ssl'
   # Settings specified here will take precedence over those in config/application.rb
 
   # The production environment is meant for finished, "live" apps.
