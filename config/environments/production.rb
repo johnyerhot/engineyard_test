@@ -1,4 +1,3 @@
-  require 'asset_hosting_with_minimum_ssl'
 TestEy::Application.configure do
 
   # Settings specified here will take precedence over those in config/application.rb
