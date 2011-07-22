@@ -1,4 +1,5 @@
 TestEy::Application.configure do
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # The production environment is meant for finished, "live" apps.
@@ -45,5 +46,11 @@ TestEy::Application.configure do
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners
-  config.active_support.deprecation = :notify
+    config.active_support.deprecation = :notify
+    config.after_initialize do
+      config.asset_host = AssetHostingWithMinimumSsl.new(
+                                                          "http://assets.example.com",
+                                                          "https://assets1.example.com"
+                                                          )
+    end
 end
