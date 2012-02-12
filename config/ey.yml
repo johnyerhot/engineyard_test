@@ -1,0 +1,4 @@
+ environments:
+    192test:
+      copy_exclude:
+      - .git
