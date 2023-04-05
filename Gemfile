@@ -1,10 +1,10 @@
 # encoding: utf-8
 source 'http://rubygems.org'
-gem 'rails', '3.0.3'
-gem 'rack', '1.2.3'
+gem 'rails', '6.1.7.3'
+gem 'rack', '3.0.0'
 gem 'mysql'
-gem 'delayed_job'
-gem 'engineyard'
+gem 'delayed_job', '>= 4.1.9'
+gem 'engineyard', '>= 3.0.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
