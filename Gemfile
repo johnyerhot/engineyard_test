@@ -1,6 +1,6 @@
 # encoding: utf-8
 source 'http://rubygems.org'
-gem 'rails', '3.0.3'
+gem 'rails', '7.1.0'
 gem 'rack', '1.2.3'
 gem 'mysql'
 gem 'delayed_job'
